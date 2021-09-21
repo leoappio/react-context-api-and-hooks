@@ -14,6 +14,15 @@ export const Home = () => {
         <Button onButtonClick = {() => actions.increase()}>
             Increase
         </Button>
+        <Button onButtonClick = {() => actions.decrease()}>
+            Decrease
+        </Button>
+        <Button onButtonClick = {() => actions.reset()}>
+            Reset
+        </Button>
+        <Button onButtonClick = {() => actions.setCounter({counter: 10})}>
+            Set Counter
+        </Button>
 
     </div>
   );
