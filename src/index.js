@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { CounterContextProvider } from './contexts/CounterContext';
 import './styles/index.css';
-import Home from './templates/Home';
+import {Home} from './templates/Home';
 
 ReactDOM.render(
     <React.StrictMode>
